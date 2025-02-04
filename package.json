@@ -1,0 +1,16 @@
+{
+  "name": "root-workspace",
+  "private": true,
+  "workspaces": [
+    "Frontend",
+    "SanityStudio"
+  ],
+  "scripts": {
+    "dev:frontend": "npm run dev --workspace=Frontend",
+    "dev:sanity": "npm run dev --workspace=SanityStudio",
+    "build:frontend": "npm run build --workspace=Frontend",
+    "build:sanity": "npm run build --workspace=SanityStudio",
+    "start:frontend": "npm run start --workspace=Frontend",
+    "start:sanity": "npm run start --workspace=SanityStudio"
+  }
+}
