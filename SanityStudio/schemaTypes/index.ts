@@ -1,7 +1,7 @@
 import {defineType} from 'sanity'
 
-const person = defineType({
-  name: 'person',
+const author = defineType({
+  name: 'Author',
   type: 'document',
   fields: [
     {
@@ -17,4 +17,4 @@ const person = defineType({
   ],
 })
 
-export const schemaTypes = [person]
+export const schemaTypes = [author]
